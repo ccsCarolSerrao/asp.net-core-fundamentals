@@ -330,5 +330,8 @@ ASALocalRun/
 .mfractor/
 
 #Nuget Libs
-*/lib/bootstrap/
-*/lib/jquery/
+**/*/lib/bootstrap/
+**/*/lib/jquery/
+**/*/lib/popper.js/
+**/*/lib/system*
+
