@@ -48,6 +48,13 @@ namespace OdeToFood.Data
 
             return restaurant;
         }
+        public Restaurant Add(Restaurant newdRestaurant)
+        {
+            restaurants.Add(newdRestaurant);
+            newdRestaurant.Id = restaurants.Max(r => r.Id) + 1;
+
+            return newdRestaurant;
+        }
 
         public int Commit()
         {
